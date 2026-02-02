@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>sign in</title>
+  <link rel="stylesheet" href="src/output.css">
+</head>
+
+<body class="bg-black flex items-center justify-center h-screen overflow-hidden">
+
+  <!-- CARD (DIKECILIN) -->
+  <div class="flex w-[1050px] h-[600px] rounded-2xl overflow-hidden">
+
+    <!-- LEFT IMAGE (45%) -->
+    <div class="relative w-[45%] h-full flex-shrink-0">
+      <img src="images/codm_1.jpg" class="w-full h-full object-cover">
+      <div class="absolute inset-0 bg-black/50"></div>
+
+      <div class="absolute top-16 left-10 text-white">
+        <h1 class="text-yellow-400 text-5xl font-extrabold leading-tight">
+          let's<br>get<br>started
+        </h1>
+        <p class="mt-4 text-sm text-gray-200">
+          Take your weapon and<br>
+          be the best player
+        </p>
+      </div>
+    </div>
+
+    <!-- RIGHT FORM (55%) -->
+    <div class="w-[55%] h-full bg-[#e6e6e6] px-10 py-8 relative overflow-y-auto">
+
+      <!-- language -->
+      <div class="absolute top-5 right-5 bg-yellow-400 px-4 py-1.5 rounded-full text-sm font-semibold flex items-center gap-2">
+        english (UK)
+        <img src="images/down.png" class="w-3">
+      </div>
+
+      <h2 class="text-3xl font-extrabold mb-5 leading-tight">
+        CREATE<br>ACCOUNT
+      </h2>
+
+      <!-- name -->
+      <div class="grid grid-cols-2 gap-4 mb-4">
+        <input class="input" placeholder="First Name">
+        <input class="input" placeholder="Last Name">
+      </div>
+
+      <input class="input mb-4 w-full" placeholder="Username">
+
+      <div class="relative mb-4">
+        <input type="password" class="input w-full" placeholder="Password">
+        <img src="images/hidden.png"
+             class="absolute right-4 top-1/2 -translate-y-1/2 w-5 opacity-60">
+      </div>
+
+      <div class="relative mb-4">
+        <input type="password" class="input w-full" placeholder="Confirm the Password">
+        <img src="images/hidden.png"
+             class="absolute right-4 top-1/2 -translate-y-1/2 w-5 opacity-60">
+      </div>
+
+      <input class="input mb-5 w-full" placeholder="email@gmail.com">
+
+      <button class="w-full bg-yellow-400 py-3 rounded-full text-lg font-bold shadow-md hover:brightness-95">
+        SIGN IN
+      </button>
+
+      <p class="text-sm mt-4 text-center">
+        already has account?
+        <span class="text-red-500 font-semibold cursor-pointer">Log in Here</span>
+      </p>
+
+      <div class="flex items-center justify-center gap-4 mt-5">
+        <img src="images/google.png" class="w-9 cursor-pointer">
+        <span class="text-sm font-semibold">OR</span>
+        <img src="images/facebook.png" class="w-9 cursor-pointer">
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>
